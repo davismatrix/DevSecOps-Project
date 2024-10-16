@@ -1,6 +1,7 @@
 kind: Service
 apiVersion: v1
 metadata:
+  namespace: netflix
   name: node-exporter
   namespace: prometheus-node-exporter
 spec:

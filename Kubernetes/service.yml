@@ -1,6 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
+  namespace: netflix
   name: netflix-app
   labels:
     app: netflix-app
